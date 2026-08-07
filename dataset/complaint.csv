@@ -1,5 +1,5 @@
 text,category,priority,channel,status
-login issue unable to access account,authentication,high,web,open
+login issue unable to access account,authentication,high,web,open 
 forgot password not receiving reset link,authentication,medium,app,open
 account locked after multiple attempts,authentication,high,web,closed
 
