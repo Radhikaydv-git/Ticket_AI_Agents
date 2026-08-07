@@ -1,0 +1,39 @@
+text,category,priority,channel,status
+login issue unable to access account,authentication,high,web,open
+forgot password not receiving reset link,authentication,medium,app,open
+account locked after multiple attempts,authentication,high,web,closed
+
+payment failed but amount deducted,payment,high,app,open
+refund not received for cancelled order,payment,medium,email,open
+charged twice for same purchase,payment,high,web,closed
+
+app crashing when opening dashboard,technical,high,app,open
+website not loading properly,technical,medium,web,open
+error 500 on submitting form,technical,high,web,closed
+
+order not delivered yet,delivery,medium,app,open
+delivery delayed beyond expected date,delivery,low,email,open
+tracking shows delivered but not received,delivery,high,web,closed
+
+received defective product,product,high,app,open
+wrong product delivered,product,medium,email,open
+product stopped working after few days,product,high,web,closed
+
+want to return purchased item,return,low,app,open
+return request not processed,return,medium,email,open
+refund delay after return,return,high,web,closed
+
+slow performance of application,performance,medium,web,open
+app taking too long to load,performance,medium,app,open
+
+unable to upload files,feature,medium,app,open
+feature not working as expected,feature,low,web,open
+
+unable to update profile details,account,low,app,open
+email change not working,account,medium,email,open
+
+security concern unauthorized login,security,high,web,open
+account hacked need recovery,security,high,email,closed
+
+incorrect billing amount,billing,high,app,open
+invoice not generated,billing,medium,web,open
